@@ -78,7 +78,10 @@ From: ubuntu:22.04
     libgdal-dev \
     libgeos-dev \
     libproj-dev \
-    libfontconfig1-dev
+    libfontconfig1-dev \
+    libgsl-dev \
+    git \
+    openssh-client
 
   wget -q ${QUARTO_DEB} -O quarto.deb
   gdebi -n quarto.deb
