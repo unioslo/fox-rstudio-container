@@ -19,6 +19,8 @@ From: ubuntu:22.04
 
 %environment
   export PATH=/usr/lib/rstudio-server/bin:${PATH}
+  export LANG=en_US.UTF-8
+  export LC_ALL=en_US.UTF-8
 
 %setup
   install -Dv \
